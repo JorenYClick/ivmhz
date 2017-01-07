@@ -1,0 +1,5 @@
+# Allow letsencrypt access
+Require all granted
+RewriteEngine On
+RewriteRule .* - [L]
+Allow from all
